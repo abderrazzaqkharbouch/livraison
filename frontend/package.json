@@ -14,7 +14,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "node node_modules/react-scripts/bin/react-scripts.js buildcd frontend
+git add package.json
+git commit -m "fix react-scripts build command"
+git push"
   },
   "proxy": "http://localhost:5000",
   "browserslist": {
